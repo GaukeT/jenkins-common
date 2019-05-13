@@ -1,9 +1,7 @@
-class common {
-    def config = [
-            'master': new Property(Environment.PROD, false),
-            'feature-jenkins-pipeline-as-code': new Property(Environment.DEV, true)
-        ]
-}
+def config = [
+        'master': new Property(Environment.PROD, false),
+        'feature-jenkins-pipeline-as-code': new Property(Environment.DEV, true)
+    ]
 
 class Property {
     Environment env
