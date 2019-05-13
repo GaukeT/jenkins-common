@@ -1,21 +1,21 @@
 class common {
-    final def config = [
-            'master': new Property(Environment.PROD, false),
-            'feature-jenkins-pipeline-as-code': new Property(Environment.DEV, true)
+    def config = [
+            'master': new property(environment.PROD, false),
+            'feature-jenkins-pipeline-as-code': new property(environment.DEV, true)
         ]
 }
 
-class Property {
-    Environment env
+class property {
+    environment env
     boolean snapshot
 
-    Property(Environment env, boolean snapshot) {
+    property(environment env, boolean snapshot) {
         this.env = env
         this.snapshot = snapshot
     }
 }
 
-enum Environment {
+enum environment {
     PROD,
     DEV
 }
