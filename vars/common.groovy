@@ -1,4 +1,4 @@
-class Common {
+class common {
     static def config = [
             'master'                          : new Property(Environment.PROD, false),
             'feature-jenkins-pipeline-as-code': new Property(Environment.DEV, true)
