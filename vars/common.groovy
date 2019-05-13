@@ -1,5 +1,8 @@
 class common {
-    def map1 = ['master': new props('prod', false)]
+    def map1 = [
+            'master': new props('prod', false),
+            'feature-jenkins-pipeline-as-code': new props('dev', true)
+        ]
 }
 
 class props {
