@@ -7,7 +7,7 @@ Add configuration in your Jenkins instance as documented by [Jenkins](https://je
 In your Jenkinsfile, you can add ```@Library('github.com/GaukeT/jenkins-common')``` on top of the file to import everything.
 
 ### Example of use
-[Click here](https://github.com/GaukeT/demo-review/blob/feature-jenkins-pipeline-as-code/Jenkinsfile)
+[Click here](https://github.com/GaukeT/demo-review/blob/master/Jenkinsfile)
 
 ## Badges
 [![CodeFactor](https://www.codefactor.io/repository/github/gauket/jenkins-common/badge)](https://www.codefactor.io/repository/github/gauket/jenkins-common)
