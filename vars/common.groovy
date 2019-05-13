@@ -1,5 +1,5 @@
 class common {
-    def map1 = [
+    def config = [
             'master': new props('prod', false),
             'feature-jenkins-pipeline-as-code': new props('dev', true)
         ]
